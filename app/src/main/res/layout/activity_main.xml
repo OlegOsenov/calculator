@@ -40,6 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp">
             <TextView
+                android:id="@+id/clear_text"
                 style="@style/ButtonOperation"
                 android:text="C"
                 />
@@ -65,18 +66,22 @@
             android:layout_height="0dp">
 
             <TextView
+                android:id="@+id/seven"
                 style="@style/ButtonNumber"
                 android:text="7"
                 />
             <TextView
+                android:id="@+id/eight"
                 style="@style/ButtonNumber"
                 android:text="8"
                 />
             <TextView
+                android:id="@+id/nine"
                 style="@style/ButtonNumber"
                 android:text="9"
                 />
             <TextView
+                android:id="@+id/multiplication"
                 style="@style/ButtonOperation"
                 android:text="*"
                 />
@@ -90,18 +95,22 @@
             android:layout_width="match_parent"
             android:layout_height="0dp">
             <TextView
+                android:id="@+id/four"
                 style="@style/ButtonNumber"
                 android:text="4"
                 />
             <TextView
+                android:id="@+id/five"
                 style="@style/ButtonNumber"
                 android:text="5"
                 />
             <TextView
+                android:id="@+id/six"
                 style="@style/ButtonNumber"
                 android:text="6"
                 />
             <TextView
+                android:id="@+id/plus"
                 style="@style/ButtonOperation"
                 android:text="+"
                 />
@@ -114,18 +123,22 @@
             android:layout_width="match_parent"
             android:layout_height="0dp">
             <TextView
+                android:id="@+id/one"
                 style="@style/ButtonNumber"
                 android:text="1"
                 />
             <TextView
+                android:id="@+id/two"
                 style="@style/ButtonNumber"
                 android:text="2"
                 />
             <TextView
+                android:id="@+id/three"
                 style="@style/ButtonNumber"
                 android:text="3"
                 />
             <TextView
+                android:id="@+id/percent"
                 style="@style/ButtonOperation"
                 android:text="%"
                 />
@@ -137,19 +150,23 @@
             android:layout_width="match_parent"
             android:layout_height="0dp">
             <TextView
+                android:id="@+id/comma"
                 style="@style/ButtonNumber"
                 android:text=","
                 />
             <TextView
+                android:id="@+id/zero"
                 style="@style/ButtonNumber"
                 android:text="0"
                 />
             <TextView
+                android:id="@+id/back"
                 style="@style/ButtonNumber"
                 android:text="Back"
 
                 />
             <TextView
+                android:id="@+id/result"
                 style="@style/ButtonOperation"
                 android:text="="
                 />
